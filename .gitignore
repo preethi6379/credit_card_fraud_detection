@@ -1,12 +1,14 @@
 # Data files (do not commit large raw datasets)
+*.csv
+data/*
+!data/.gitkeep
 data/raw/*
 data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
 
 # Saved models
 models/*
 !models/.gitkeep
+!models/*.png
 
 # Python / Environment
 __pycache__/
